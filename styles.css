@@ -116,8 +116,9 @@ button {
 }
 
 .logo-img {
-  width: 3.35rem;
-  height: 3.35rem;
+  width: 3.6rem;
+  height: auto;
+  max-height: 3.6rem;
   object-fit: contain;
   background: transparent;
 }
@@ -247,10 +248,10 @@ button {
 }
 
 .hero-logo {
-  width: min(18rem, 68vw);
+  width: min(17rem, 70vw);
   height: auto;
   margin: 0 0 1.1rem;
-  filter: drop-shadow(0 18px 30px rgba(42, 47, 54, 0.14));
+  filter: drop-shadow(0 10px 18px rgba(42, 47, 54, 0.12));
 }
 
 .hero h1 {
