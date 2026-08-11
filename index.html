@@ -8,6 +8,8 @@
       name="description"
       content="LaLa's Littles Childcare & Preschool in Corsicana, TX — safe, nurturing care for infants through school-age. Call (903) 875-2228 to schedule a tour."
     />
+    <link rel="icon" href="assets/logo.png" type="image/png" />
+    <link rel="apple-touch-icon" href="assets/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -22,7 +24,13 @@
     <header class="site-header" data-header>
       <div class="shell header-inner">
         <a class="logo" href="#top" aria-label="LaLa's Littles home">
-          <span class="logo-mark" aria-hidden="true">LL</span>
+          <img
+            class="logo-img"
+            src="assets/logo.png"
+            alt="LaLa's Littles Childcare and Preschool logo"
+            width="72"
+            height="72"
+          />
           <span class="logo-text">
             <span class="logo-name">LaLa's Littles</span>
             <span class="logo-tag">Childcare &amp; Preschool</span>
@@ -44,7 +52,7 @@
         <nav class="site-nav" id="site-nav" data-nav>
           <a href="#about">About</a>
           <a href="#programs">Programs</a>
-          <a href="#day">Our Day</a>
+          <a href="#moments">Moments</a>
           <a href="#visit">Visit</a>
           <a class="nav-cta" href="tel:+19038752228">Call Us</a>
         </nav>
@@ -54,27 +62,29 @@
     <main id="main">
       <section class="hero" id="top">
         <div class="hero-media" aria-hidden="true">
-          <img
-            src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?auto=format&fit=crop&w=2000&q=80"
-            alt=""
-            width="2000"
-            height="1333"
-          />
+          <div class="hero-pattern"></div>
           <div class="hero-wash"></div>
         </div>
 
         <div class="shell hero-content">
-          <p class="brand-lockup reveal" data-reveal>LaLa's Littles</p>
+          <img
+            class="hero-logo reveal"
+            data-reveal
+            src="assets/logo.png"
+            alt="LaLa's Littles Childcare and Preschool"
+            width="420"
+            height="420"
+          />
           <h1 class="reveal" data-reveal>
             Where little hearts grow big.
           </h1>
           <p class="hero-lede reveal" data-reveal>
-            Warm, licensed childcare and preschool in Corsicana — from first
-            steps to school-ready confidence.
+            Childcare and preschool for kids ages 6 weeks to school-aged —
+            warm, licensed care in Corsicana.
           </p>
           <div class="hero-actions reveal" data-reveal>
             <a class="btn btn-primary" href="tel:+19038752228">Schedule a Tour</a>
-            <a class="btn btn-secondary" href="#programs">See Programs</a>
+            <a class="btn btn-secondary" href="#moments">See Our Moments</a>
           </div>
         </div>
       </section>
@@ -87,10 +97,10 @@
               A safe place to explore, learn, and belong.
             </h2>
             <p class="reveal" data-reveal>
-              LaLa's Littles Childcare &amp; Preschool has been caring for
-              Corsicana families since 2013. Our licensed center welcomes
-              infants through school-age children with attentive educators,
-              playful learning, and a secure environment parents can trust.
+              LaLa's Littles is a childcare and preschool for kids ages 6 weeks
+              to school-aged. Our licensed Corsicana center has been caring for
+              families since 2013 with attentive educators, playful learning,
+              and a secure environment parents can trust.
             </p>
             <p class="reveal" data-reveal>
               We are accepting new enrollments and happy to help you find the
@@ -100,10 +110,17 @@
           </div>
 
           <aside class="about-aside reveal" data-reveal>
+            <img
+              class="about-logo"
+              src="assets/logo.png"
+              alt=""
+              width="220"
+              height="220"
+            />
             <dl class="fact-list">
               <div>
                 <dt>Ages</dt>
-                <dd>Infants through school-age</dd>
+                <dd>6 weeks through school-aged</dd>
               </div>
               <div>
                 <dt>Capacity</dt>
@@ -172,32 +189,55 @@
         </div>
       </section>
 
-      <section class="day section" id="day">
-        <div class="shell day-grid">
-          <div class="day-visual reveal" data-reveal>
-            <img
-              src="https://images.unsplash.com/photo-1587654780291-39c9404d746b?auto=format&fit=crop&w=1400&q=80"
-              alt="Children playing with colorful wooden toys in a bright classroom"
-              width="1400"
-              height="933"
-            />
-          </div>
-          <div class="day-copy">
-            <p class="eyebrow reveal" data-reveal>A day at LaLa's</p>
+      <section class="moments section" id="moments">
+        <div class="shell">
+          <div class="section-intro">
+            <p class="eyebrow reveal" data-reveal>From our Facebook</p>
             <h2 class="reveal" data-reveal>
-              Learning through play, every ordinary day.
+              Real days, real little smiles.
             </h2>
-            <p class="reveal" data-reveal>
-              From morning hellos to afternoon adventures, our days balance
-              guided activities with free play, outdoor time, rest, and plenty
-              of encouragement from teachers who know each child by name.
+            <p class="section-lede reveal" data-reveal>
+              Peek at classroom moments, crafts, and celebrations straight from
+              our Facebook page — including recent favorites like tie-dye fun.
             </p>
-            <ul class="day-points">
-              <li class="reveal" data-reveal>Friendly, knowledgeable educators</li>
-              <li class="reveal" data-reveal>Safe, stimulating classrooms</li>
-              <li class="reveal" data-reveal>Social time with other kids</li>
-              <li class="reveal" data-reveal>Enrollment support &amp; waitlist help</li>
-            </ul>
+          </div>
+
+          <div class="moments-layout reveal" data-reveal>
+            <div class="fb-embed-wrap">
+              <iframe
+                title="LaLa's Littles Childcare & Preschool on Facebook"
+                src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Fp%2FLaLas-Littles-Childcare-Preschool-100063791612166%2F&tabs=timeline&width=500&height=640&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true"
+                width="500"
+                height="640"
+                style="border: none; overflow: hidden"
+                scrolling="no"
+                frameborder="0"
+                allowfullscreen="true"
+                allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"
+                loading="lazy"
+              ></iframe>
+            </div>
+            <div class="moments-aside">
+              <img
+                class="moments-logo"
+                src="assets/logo.png"
+                alt="LaLa's Littles logo"
+                width="280"
+                height="280"
+              />
+              <p>
+                Follow along for enrollment updates, classroom crafts, and the
+                everyday joy happening at LaLa's Littles.
+              </p>
+              <a
+                class="btn btn-primary"
+                href="https://www.facebook.com/p/LaLas-Littles-Childcare-Preschool-100063791612166/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Open Facebook Page
+              </a>
+            </div>
           </div>
         </div>
       </section>
@@ -260,7 +300,13 @@
     <footer class="site-footer">
       <div class="shell footer-inner">
         <div class="footer-brand">
-          <span class="logo-mark" aria-hidden="true">LL</span>
+          <img
+            class="logo-img"
+            src="assets/logo.png"
+            alt=""
+            width="56"
+            height="56"
+          />
           <div>
             <strong>LaLa's Littles</strong>
             <p>Childcare &amp; Preschool · Corsicana, TX</p>
