@@ -1,5 +1,8 @@
 assets/raw/
+assets/logo-preview-pastel.png
 node_modules/
+scripts/
 .DS_Store
 Thumbs.db
 *.log
+package-lock.json
